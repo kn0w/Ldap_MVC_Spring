@@ -27,3 +27,15 @@ Na classe LdapUser:
 [sn: String]: Sobrenome do usuário.
 [userPrincipalName: String]: Nome principal do usuário, que geralmente é o seu endereço de email.
 [unicodePwd: String]: Senha do usuário, codificada em UTF-8.
+
+*Classe [LdapProperties]:*
+Essa classe representa as propriedades de configuração do servidor LDAP.
+
+Métodos:
+
+[getInitialCtx()]: método que retorna o contexto inicial do servidor LDAP.
+[setInitialCtx(initialCtx)]: método que define o contexto inicial do servidor LDAP.
+[getLogger()]: método que retorna o logger para a classe LdapServer.
+[setLogger(logger)]: método que define o logger para a classe LdapServer.
+[getUserDn()]: método que retorna o distinguished name (DN) do usuário do sistema.
+[setUserDn(userDn)]: método que define o distinguished name (DN) do usuário do sistema.
