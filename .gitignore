@@ -1,3 +1,9 @@
+#File or Dir
+/src/
+*.fxml
+*.css
+*.xml
+*.properties
 # Compiled class file
 *.class
 
